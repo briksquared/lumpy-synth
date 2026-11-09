@@ -1,6 +1,20 @@
+<div align="center">
+
 # LUMPY SYNTH
 
-A six-voice polysynth firmware for the **STM32F411 "Black Pill"** with a **CJMCU-1334 (UDA1334A)**
+### A six-voice breadboard polysynth for the STM32F411 Black Pill.
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![MCU](https://img.shields.io/badge/mcu-STM32F411-informational)
+![DAC](https://img.shields.io/badge/dac-UDA1334A-informational)
+![Build](https://img.shields.io/badge/build-PlatformIO-orange)
+![Language](https://img.shields.io/github/languages/top/briksquared/lumpy-synth)
+
+</div>
+
+---
+
+LUMPY SYNTH is a polysynth firmware for the **STM32F411 "Black Pill"** with a **CJMCU-1334 (UDA1334A)**
 I2S DAC — a breadboard synth you play over MIDI. It runs the
 [Arduino-STK](https://github.com/pschatzmann/Arduino-STK) synthesis engine on a custom **I2S2 DMA**
 driver, with a chord engine, sequencers, a drum grid, and EEPROM preset banks.
